@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/background-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 15px;
+}
+
+/***** START NAVBAR *****/
+
+
+
+.nav-container{
+    height: 80px;
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.menu ul{
+    display: flex;
+    gap: 20px;
+}
+.menu ul li{
+    list-style: none;
+    text-decoration: none;
+}
+.menu li a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.signin{
+    position: relative;
+    display: flex;
+    gap: 10px;
+}
+.signin img{
+height: 30px;
+width: 30px;
+}
+.btn-signin{
+    background-color: rgb(223, 3, 186);
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    color: white;
+    font-weight: bold;
+}
+
+/***** End NAVBAR *****/
+
+
+/***** HERO Section *****/
+
+.container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    padding: 0 0 0 220px;
+}
+
+.left{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 180px 0 20px 0;
+    justify-content: space-between;
+}
+
+.social{
+position: relative;
+align-items: center;
+justify-content: center;
+}
+
+.part1{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+}
+h1 {
+    font-size: 4rem;
+}
+.part1 p{
+    font-size: 25px;
+}
+.part2{
+    display: flex;
+}
+
+.phone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.phone p {
+    border-right: 2px solid gray;
+    padding-right: 10px;
+}
+
+.right{
+    width: 80%;
+    padding-right: 0px;
+}
+
+.btn{
+    background-color: rgb(223, 3, 186);
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-cal{
+    background-color: white;
+    border: 2px solid rgb(223, 3, 186);
+    color: rgb(223, 3, 186);
+}
+
+.btn-loan{
+    display: flex;
+    padding: 8px;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0px 4px 18px 0px rgba(216, 141, 203, 0.6);
+    border: none;
+    font-weight: bold;
+}
+
+.btn-car{
+    position: absolute;
+    top: 90px;
+    left: 47%;
+}
+
+.btn-home{
+    position: absolute;
+    right: 150px;
+    top: 250px;
+}
+
+/***** End HERO Section *****/
